@@ -17,6 +17,8 @@ function MovieCard({ movie, onDetailsClick }) {
           <span><Star size={15} fill="currentColor" /> {rating}</span>
           <span>•</span>
           <span><Calendar size={15} /> {year}</span>
+          <span>•</span>
+          <span>{movie.language}</span>
         </div>
 
         <button className="details-button" onClick={() => onDetailsClick(movie)}>
