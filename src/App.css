@@ -65,7 +65,7 @@
       rgba(5, 8, 15, 0.75) 45%,
       rgba(5, 8, 15, 0.35) 100%
     ),
-    url("C:\Users\HP\Downloads\Movie Hall.jpg");
+    url("./images/Movie Hall.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
