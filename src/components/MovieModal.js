@@ -30,6 +30,8 @@ function MovieModal({ movie, onClose }) {
             <span><Star size={15} fill="currentColor" /> {rating}</span>
             <span>•</span>
             <span><Calendar size={15} /> {releaseDate}</span>
+            <span>•</span>
+            <span>{movie.language}</span>
           </div>
 
           <p className="modal-genre">
